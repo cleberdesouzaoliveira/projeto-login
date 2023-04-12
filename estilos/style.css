@@ -29,7 +29,12 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
 }
 #login >#imagem{
+    display: block;
   background:black url(../imagens/imagem-principal.jpg) ;
   background-size: cover;
   height: 250px;
+}
+#login > #formulario{
+    display: block;
+    padding: 10px;
 }
